@@ -1,0 +1,83 @@
+.table-container {
+    padding: 20px;
+    background-color: #000000; /* Black background */
+    padding-top: 70px;
+}
+
+.table-header {
+    display: flex;
+    justify-content: center; /* Center the header content */
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #333333; /* Dark gray background for the header */
+    padding: 10px 20px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Lighter shadow for contrast */
+    text-align: center;
+}
+
+.table-header h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #ffffff; /* White text color for the header */
+}
+
+.overview-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue button */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Space between the title and the button */
+}
+
+.overview-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.room-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1f1f1f; /* Dark gray background for the table */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Lighter shadow for contrast */
+    color: #ffffff; /* White text color */
+    margin: 0 auto; /* Center the table within its container */
+}
+
+.room-table th, .room-table td {
+    padding: 15px;
+    text-align: center; /* Center align text in table cells */
+    border-bottom: 1px solid #444444; /* Darker border color */
+}
+
+.room-table th {
+    background-color: #007bff; /* Blue background for the header */
+    color: #ffffff; /* White text color */
+}
+
+.room-table tr:nth-child(even) {
+    background-color: #2a2a2a; /* Slightly lighter dark gray for even rows */
+}
+
+.room-table tr:hover {
+    background-color: #333333; /* Slightly lighter dark gray for hover effect */
+}
+
+.book-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #28a745; /* Green button */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}

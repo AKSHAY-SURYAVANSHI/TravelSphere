@@ -1,0 +1,44 @@
+.background {
+    background-image: url('C:\Users\akshay.suryavanshi\OneDrive - ascendion\Desktop\CAPSTONEE\capstone\src\assets/homePage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.LoginForm {
+    margin-left: 650px;
+    z-index: 10;
+}
+
+.welcomeback {
+    color: white;
+    margin-top: -450px;
+    width: 40%;
+    margin-left: 220px;
+    z-index: 10;
+}
+
+.welcomeback h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.welcomeback p {
+    text-align: left;
+    width: 80%;
+    color: white;
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
+}
+
+.socials .fa-icon {
+    color: white;
+    transition: color 0.3s ease;
+}

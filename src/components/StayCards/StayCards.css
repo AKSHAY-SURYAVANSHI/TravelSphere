@@ -1,0 +1,129 @@
+/* Container for all stay cards */
+.staycontainer {
+    background-color: rgb(0, 0, 0);
+    z-index: 10;
+    position: relative;
+    margin-top: 200px;
+}
+
+/* Container for filter buttons */
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-bottom: 20px; /* Space below the filter buttons */
+}
+
+/* Style for filter buttons */
+.filter-container button {
+    background-color: #333; /* Background color for buttons */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding inside the buttons */
+    margin: 5px; /* Space between buttons */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for better readability */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    margin-top: 20px;
+    width: 12%;
+}
+
+/* Hover effect for filter buttons */
+.filter-container button:hover {
+    background-color: #ff9900; /* Darker background on hover */
+}
+
+/* Container for the cards */
+.cards-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+    padding: 20px;
+}
+
+/* Style for individual card */
+.card1 {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 25rem; /* Fixed width for the card */
+    height: 400px; /* Match the height of the card */
+    overflow: hidden; /* Ensure content fits within the card */
+    position: relative; /* Needed for absolute positioning of child elements */
+    margin-right: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.3); /* Shadow effect on top */
+}
+
+/* Style for card image */
+.card-img-top1 {
+    width: 100%; /* Ensure the image fits the card width */
+    height: 50%; /* Ensure the image height is half of the card height */
+    object-fit: cover; /* Cover the image area, maintain aspect ratio */
+    border-bottom: 1px solid #ddd; /* Border separating the image from the content */
+    border-radius: 10px 10px 0 0; /* Rounded corners for top of image */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Container for card information */
+.cardInfo1 {
+    border-radius: 0 0 10px 10px; /* Rounded corners for bottom of card info */
+    padding: 10px; /* Add padding inside the card info */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.422); /* Semi-transparent background */
+    position: absolute; /* Position absolutely to avoid margin issues */
+    bottom: 0; /* Align to the bottom of the card */
+    width: 100%; /* Full width of the card */
+    border-top: none; /* Remove top border */
+   color: black;
+}
+
+/* Style for card info title */
+.cardInfo1 h3 {
+   
+    margin: 0; /* Remove default margin for consistent spacing */
+}
+
+/* Container for additional info (location, rating) */
+.seeMoreButton1 {
+    text-align: center; /* Center-align the content */
+    border-top: 1px solid #ddd; /* Add a light border line above */
+    width: 100%; /* Full width of the card */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for list inside card info */
+.seeMoreButton1 ul {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Ensure ul covers the entire width of the card */
+    list-style-type: none; /* Remove bullet points from list items */
+}
+
+/* Style for individual list items */
+.seeMoreButton1 li {
+    border-bottom: 1px solid #ddd; /* Add a border line between items */
+    margin: 0; /* Remove margin for spacing consistency */
+    padding: 10px; /* Add padding for better spacing */
+   
+}
+
+/* Remove bottom border for the last list item */
+.seeMoreButton1 li:last-child {
+    border-bottom: none; /* Remove the bottom border for the last item */
+}
+
+/* Style for 'Explore More' button */
+.cardInfo1 button {
+    background-color: red; /* Background color for 'Explore More' button */
+    color: white; /* Text color for 'Explore More' button */
+    font-weight: bold; /* Make the text bold */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    text-align: center; /* Center-align the text */
+    display: inline-block; /* Make it behave like a button */
+    margin-top: 5px; /* Space above the button */
+}

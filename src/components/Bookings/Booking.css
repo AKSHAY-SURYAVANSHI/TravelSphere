@@ -1,0 +1,78 @@
+/* Table container styling */
+.table-container {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f0f0f0; /* Grey background for the table */
+  }
+  
+  /* Table header and row styling */
+  .table-header, .table-row {
+    display: table-row;
+    width: 100%;
+  }
+  
+  /* Table cell styling */
+  .table-cell {
+    display: table-cell;
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: #000; /* Black text color */
+  }
+  
+  /* Header styling */
+  .table-header {
+    font-weight: bold;
+    background-color: #e0e0e0; /* Slightly darker grey for the header */
+  }
+  
+  /* Alternating row colors */
+  .table-row:nth-child(even) {
+    background-color: #d9d9d9; /* Alternating row colors for better readability */
+  }
+  
+  /* Input field styling within table cells */
+  .table-cell input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 4px;
+    background-color: #fff;
+  }
+  
+  /* Remove spinner for number input in Firefox */
+  .table-cell input[type="number"] {
+    -moz-appearance: textfield; /* Remove spinner in Firefox */
+  }
+  
+  /* Button styling within table cells */
+  .table-cell button {
+    margin-right: 8px;
+  }
+  
+  /* Container for the Make Payment button */
+  .make-payment-container {
+    display: flex; /* Use flexbox to align content */
+    justify-content: flex-end; /* Align button to the right */
+    margin-top: 20px; /* Space between the table and button */
+    width: 100%; /* Make the container span the full width of the screen */
+  }
+  
+  /* Styling for the Make Payment button */
+  .make-payment-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; /* Button width adjusted to fit content */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  /* Hover effect for the Make Payment button */
+  .make-payment-button:hover {
+    background-color: #45a049;
+  }
+  

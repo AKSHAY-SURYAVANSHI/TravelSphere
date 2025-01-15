@@ -1,0 +1,79 @@
+.footer-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.footer-left-container figure {
+    display: flex;
+    margin-right: 20px;
+    margin-top: -12px;
+}
+
+.footer-left-container figure img {
+    height: 30px;
+}
+
+.footer-left-container figcaption {
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-center-container{
+    margin-left: 200px;
+}
+
+.footerm-table {
+    width: 100%; /* Adjust as needed */
+    border-collapse: collapse; /* Collapse borders to remove spacing */
+}
+
+.footer-table td {
+    padding: 4px; /* Add padding for spacing */
+    text-align: left; /* Align text to the left */
+    border: none; /* Remove borders */
+}
+
+.footer-right-container {
+    display: flex; /* Use flexbox to align items in a column */
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align items to the start of the container */
+    margin-left: 200px;
+}
+
+.footer-right-container input {
+    width: 400px; /* Adjust width as needed */
+    padding: 10px; /* Add padding inside the input */
+    border-radius: 10px; /* Round the corners of the input */
+    border: 1px solid #ccc; /* Add a light border */
+    margin-bottom: 10px; /* Add space between input and button */
+}
+
+.footer-right-container button {
+    padding: 9.5px 15px; /* Add padding inside the button */
+    border: none; /* Remove default border */
+    border-top-right-radius: 10px; /* Round the top-right corner */
+    border-bottom-right-radius: 10px; 
+    border-top-left-radius:0px; /* Round the top-right corner */
+    border-bottom-left-radius: 0px;/* Round the bottom-right corner */ 
+    color: white; /* Button text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 18px; /* Font size for the button */
+    margin-bottom: 10px; /* Add space between button and text */
+    margin-top: -56px;
+    margin-left: 370px;
+}
+
+.right{
+    margin-left: 30px;
+}
+
+.footer-right-container p {
+    color: white;
+    margin: 0; /* Remove default margin */
+}

@@ -1,0 +1,9 @@
+.cards{
+    display: flex;
+}
+
+.newCardContainer{
+    height: 200vh;
+    z-index: 10;
+    background-color:  #252424;
+}

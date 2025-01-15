@@ -1,0 +1,127 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.signInContainer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formSwitcher {
+    display: flex;
+    margin-bottom: 38px;
+    margin-left: -135px;
+    margin-top: 50px;
+}
+
+.formButton {
+    background-color: transparent; /* Default to transparent */
+    color: white;
+    border: 1px solid #ff6f00; /* Orange border for inactive buttons */
+    padding: 10px 40px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: -35px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.formButton.active {
+    background-color: #ff6f00; /* Orange color for the active button */
+    color: white; /* White text for active button */
+    border: none; /* Remove border for active button */
+}
+
+.formButton:hover {
+    background-color: rgba(255, 105, 0, 0.8); /* Semi-transparent orange on hover */
+    color: white;
+}
+
+h2 {
+    font-size: 28px; /* Adjust the size as needed */
+    font-weight: bold; /* Makes the text bold */
+    color: white; /* White text for good contrast against the black background */
+    margin: 0 0 20px 0; /* Margin below the h2 tag for spacing */
+    text-align: center; /* Center-align the text */
+    letter-spacing: 1px;
+    margin-bottom: 10px; /* Adds some spacing between letters for readability */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0); /* Transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0); /* Semi-transparent border */
+    border-radius: 8px;
+    color: white; /* Black text color inside the form */
+}
+
+label {
+    font-weight: bold; /* Makes the label text bold */
+    font-size: 18px; /* Increases the font size of the labels */
+    margin-bottom: 10px; /* Adds spacing below the label */
+    display: block; /* Ensure labels are block elements */
+    color: white; /* Black color for labels */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: -35px; /* Space between input and next element (e.g., button) */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    color: black; /* Black text color inside input */
+}
+
+button {
+    background-color: #ff6f00; /* Orange color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e65100; /* Darker orange on hover */
+}
+
+p {
+    margin: 10px 0;
+    text-align: center;
+    color: black; /* Black color for paragraphs inside the form */
+}
+
+.tnc p {
+    font-size: 14px;
+    color: white; /* Black color for terms and conditions text */
+}
+
+.tnc span {
+    text-decoration: underline;
+    color: #ffffff; /* Link color */
+    cursor: pointer;
+}
+
+.tnc span:hover {
+    color: #0056b3; /* Darker link color on hover */
+}
+
+.createAccount p{
+    color: white;
+}

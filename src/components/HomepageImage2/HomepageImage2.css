@@ -1,0 +1,10 @@
+.HomepageImage2 img{
+    height: 300px;
+    width: 1578px;
+    z-index: 0;
+}
+
+.HomepageImage2 h2{
+    margin-top: -280px;
+    font-size: 50px;
+}

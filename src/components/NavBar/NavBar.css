@@ -1,0 +1,81 @@
+.navbar {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 50px;
+    background: transparent;
+    transition: background 0.3s;
+    margin-top: -10px;
+    
+
+    
+}
+
+
+
+.navbar.scrolled {
+    background: rgba(3, 3, 3, 1);
+    padding-top: -20px;
+}
+
+
+
+.navbar-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.left-container,
+.right-container {
+    display: flex;
+    align-items: center;
+}
+
+.left-container figure {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+.left-container figure img {
+    height: 30px;
+}
+
+.left-container figcaption {
+    margin-left: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.right-container button,
+.left-container button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.right-container img {
+    height: 30px;
+    width: 32px;
+    margin-left: 30px;
+}
+

@@ -1,0 +1,24 @@
+.carousel-container{
+    width: 100%;
+    z-index: -1;
+    position: relative;
+}
+
+.carousel-container img{
+    height: 700px;
+    width: 1579px;
+}
+
+.carousel-container h1{
+    margin-top: -470px ;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    text-shadow: 
+    3px 3px 0 black,
+    -3px -3px 0 black,
+    3px -3px 0 black,
+    -3px 3px 0 black; /* Black outline */
+}
+

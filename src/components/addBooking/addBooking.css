@@ -1,0 +1,76 @@
+/* addBooking.css */
+
+.add-booking-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    padding-top: 70px;
+  }
+  
+  .add-booking-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-table {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-table-header {
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    color: black; /* Updated heading text color to black */
+  }
+  
+  .booking-table-cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 15px;
+    width: 100%; /* Ensure container takes full width */
+  }
+  
+  .input-container .label{
+    flex:1;
+  }
+  .input-container input {
+    flex: 2; /* Both label and input take equal space */
+  }
+  
+  .input-container .label {
+    font-weight: bold;
+    margin-right: 10px; /* Space between label and input */
+    margin-top: 2px;
+    border: 1px solid white;
+  }
+  
+  .input-container input {
+    margin-top: 0px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* Removed fixed width to make sure input takes up available space */
+  }
+  
+  button {
+    background-color: rgb(255, 0, 0); /* Updated button color to black */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:disabled {
+    background-color: #ff0000bb;
+    cursor: not-allowed;
+  }
+  
